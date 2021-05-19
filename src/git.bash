@@ -10,4 +10,4 @@ alias glg="git log --graph --oneline"
 alias glgs="git log --graph --oneline -n 7"
 alias gbc="git checkout -b "
 
-
+alias gcam="git add . && git commit -m"
