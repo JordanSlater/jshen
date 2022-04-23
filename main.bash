@@ -1,5 +1,5 @@
 #!/bin/bash
-for f in $HOME/jshen/src/*.bash $HOME/jshen/src/**/*.bash; do
+for f in $(find $HOME/jshen/src -name '*.bash'); do
     source $f;
     echo -n '.'
 done
