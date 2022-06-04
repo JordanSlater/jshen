@@ -2,6 +2,7 @@
 alias g="git"
 
 git config --global alias.s status
+git config --global alias.a add
 git config --global alias.c checkout
 git config --global alias.p pull
 git config --global alias.b branch
