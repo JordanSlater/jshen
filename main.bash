@@ -1,5 +1,7 @@
 #!/bin/bash
-for f in $(find $HOME/jshen/src -name '*.bash'); do
+
+JSHEN_DIR="$HOME/jshen/src"
+for f in $(find $JSHEN_DIR -maxdepth 1 -name '*.bash' && find $JSHEN_DIR -mindepth 2 -name '*.bash'); do
     source $f;
     echo -n '.'
 done
