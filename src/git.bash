@@ -9,9 +9,6 @@ git config --global alias.b branch
 git config --global alias.d diff
 git config --global alias.f fetch
 
-git config --global alias.unstage 'restore --staged'
-
-
 # detailed:
 git config --global alias.l "log --graph --decorate --abbrev-commit --format=format:'%C(bold blue)%h%C(reset) - %C(dim green)%an %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n      %C(bold black)%s%C(reset)'"
 
