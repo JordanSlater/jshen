@@ -1,2 +1,2 @@
 #!/bin/bash
-alias re_source="source ~/.bashrc"
+alias re-source="source ~/.bashrc"
