@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function cd_proj() {
+function cd-proj() {
   if [ -z "${CURRENT_PROJECT_DIRECTORY}" ]; then
     echo "Set CURRENT_PROJECT_DIRECTORY"
   else
